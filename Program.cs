@@ -1,22 +1,16 @@
-﻿namespace FileIO
+﻿namespace CSVHelperAndJson
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            //FileDemo.FileExists();
-            //FileDemo.ReadAllLines();
-            //FileDemo.ReadAllText();
-            //FileDemo.FileCopy();
-            //FileDemo.DeleteFile();
-            //FileDemo.WriteUsingStreamWriter();
-           // Console.ReadKey();
+             Console.WriteLine("# Read data from CSV & Write data in CSV");
+            //CSVHandler.ImplementCSVDataHandling();
+        //  ReadCSV_And_WriteJSON.ImplementCSVToJSON();
 
-            LearnFileIO.FileExisted();
-            LearnFileIO.ReadFileData();
-            LearnFileIO.CopyFileData();
-            LearnFileIO.WriteFileData();
-            LearnFileIO.ReadFileDatafromStream();
+            Csv.CsvFile();
+
+           // Console.ReadKey();
         }
     }
 }
